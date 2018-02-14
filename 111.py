@@ -9,3 +9,7 @@ def printer(i=3):
 printer()
 
 print ("111")
+print ('111")    
+print ("111") 
+print ("111") 
+print ("11/fm;kf;wekrt;wekrt;wker;tk;alekg;ldjflgkwnepot039451q8eritfpoq34ml65kjh3qfulskadmlk1")
