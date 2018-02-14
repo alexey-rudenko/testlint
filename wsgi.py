@@ -7,7 +7,9 @@ conf = read_config(app_dir)
 aconf = conf.lintreview
 cconf = conf.common
 
-activate_this = conf.deploy.root + '/lintreview/live/virtualenv/bin/activate_this.py'
+activate_this = (conf.deploy.root +
+                 '/lintreview/live/virtualenv/bin/activate_this.py')
 execfile(activate_this, dict(__file__=activate_this))
 
-os.environ.setdefault('LINTREVIEW_SETTINGS', conf.deploy.root + '/lintreview/live/settings.py')
+os.environ.setdefault('LINTREVIEW_SETTINGS',
+                      conf.deploy.root + '/lintreview/live/settings.py')
