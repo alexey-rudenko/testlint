@@ -7,3 +7,6 @@ def printer(i=3):
        print(num)
 
 printer()
+
+print ("111")
+print(
