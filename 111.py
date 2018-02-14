@@ -8,8 +8,3 @@ def printer(i=3):
 
 
 printer()
-
-print('11/fm;kf;wekrt;wekrt;wker
-      ;tk;alekg;ldjflgkwnepot039
-      451q8eritfpoq34ml65kjh3qfu
-      lskadmlk1')

@@ -11,5 +11,3 @@ activate_this = conf.deploy.root + '/lintreview/live/virtualenv/bin/activate_thi
 execfile(activate_this, dict(__file__=activate_this))
 
 os.environ.setdefault('LINTREVIEW_SETTINGS', conf.deploy.root + '/lintreview/live/settings.py')
-
-from lintreview.web import app as application
