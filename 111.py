@@ -6,6 +6,7 @@ def printer(i=3):
    for num in range(i):
        print(num)
 
+
 printer()
 
 print('11/fm;kf;wekrt;wekrt;wker

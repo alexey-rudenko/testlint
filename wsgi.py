@@ -1,6 +1,4 @@
-import os 
-#a;sdflk;
-#sdfg
+import os
 
 from yoconfigurator.base import read_config
 
@@ -12,37 +10,6 @@ cconf = conf.common
 activate_this = conf.deploy.root + '/lintreview/live/virtualenv/bin/activate_this.py'
 execfile(activate_this, dict(__file__=activate_this))
 
-os.environ.setdefault("LINTREVIEW_SETTINGS", conf.deploy.root + '/lintreview/live/settings.py')
-
-print('1','2')
-print('1',"2")
-print('1','2')
-print('1','2')
-print('1','2')
-print('1',"2")
-print('1','2')
-print('1','2')
-print('1','2')
-print('1','2')
-print('1',"2")
-print('1','2')
-print('1','2')
-print('1','2')
-print('1','2')
-print('1','2')
-print('1',"2")
-print('1','2')
-print('1','2')
-print('1','2')
-print('1','2')
-print('1',"2")
-print('1',"2")
-print('1',"2")
-print('1','2')
-print('1','2')
-print('1','2')
-print('1','2')
-print('1',"2")
-
+os.environ.setdefault('LINTREVIEW_SETTINGS', conf.deploy.root + '/lintreview/live/settings.py')
 
 from lintreview.web import app as application
