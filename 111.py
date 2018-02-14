@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-#comment11
-#zuza
-#zuza2
-#zuza3
 
 def printer(i=3):
    "Printer function"
