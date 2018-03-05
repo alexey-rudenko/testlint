@@ -1,3 +1,6 @@
 [submodule "postfix"]
 	path = postfix
 	url = git@github.com:chef-cookbooks/postfix.git
+[submodule "memcached"]
+	path = memcached
+	url = git@github.com:chef-cookbooks/memcached.git
