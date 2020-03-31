@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-#ssss
- aaa = 'aaa'
+# ssss
+aaa = 'aaa'
 
 # lalala
 def printer(i=3):
