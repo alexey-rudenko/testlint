@@ -2,6 +2,7 @@
 
 # ssss
 aaa = 'aaa'
+ bbb = 'bbb
 
 # lalala
 def printer(i=3):
