@@ -4,7 +4,6 @@
 aaa = 'aaa'
 bbb = 'bbb'
  c = 12
-   22
 
 # lalala
 def printer(i=3):
