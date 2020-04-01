@@ -3,7 +3,7 @@
 # ssss
 aaa = 'aaa'
 bbb = 'bbb'
- c = 12
+ccc = 'ccc'
 
 # lalala
 def printer(i=3):
